@@ -1,0 +1,30 @@
+{
+    "name": "habib/sliders",
+    "description": "slider",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mohamedhabib",
+            "email": "mohamedhabibwork@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Habib\\Slider\\": "src/"
+        },
+        "classmap": [
+            "src/database/seeds",
+            "src/database/factories"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Habib\\Slider\\Providers\\SliderServiceProvider"
+            ]
+        }
+    }
+}
